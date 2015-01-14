@@ -1,0 +1,72 @@
+/******************************************************************************
+ Team USA                      Laban Zscheile                          10/20/14
+-------------------------------------------------------------------------------
+This file is purposed to explain the overlying archetecture of our website
+
+There will be two main objects, User and Account:
+
+class User {
+
+private:
+   string uName;
+   string pass;
+   string email;
+   string address;
+   Account* accs;
+
+
+};
+
+class Account {
+
+private:
+   double number;
+   double balance;
+   User* owner;
+   int date_created;
+
+};
+
+class Checking: private Account {
+
+private:
+   boolean isChecking;
+   Account* overdraftProtection;
+
+};
+
+class Savings: private Account {
+
+private:
+   double minimumBalance;
+   double intrestRate;
+
+};
+
+#############################################################################
+
+Methods:
+
+Login() {
+
+ Traverses data base for matching username
+  -> if found, verify password
+     -> if verified, return true
+     -> if not verified, return invalid args
+  -> if not found, return invalid args
+
+}
+
+Create() {
+
+Accepts all info. If any is missing, throw flags and exceptions. When returned,
+give proper errors
+  -> If UN already exists, throw flag
+  -> If all passes without warning, call constructor, make user object with
+     given fields.
+
+}
+
+
+
+******************************************************************************/

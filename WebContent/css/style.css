@@ -1,0 +1,33 @@
+  .container {
+    width: 200px;
+    height: 200px;
+  }
+  input[type=text] {
+    background-color: white;
+    border:solid 1px black;
+    color: #777777;
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    margin-bottom:
+    width: 150px;
+  }
+  input[type=password] {
+    background-color: white;
+    border:solid 1px black;
+    color: #777777;
+    height: 20px;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    width: 150px;
+  }
+  #submit {
+    width: 170px;
+    margin-left: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    background: black;
+    color: white;
+    box-shadow: 0px;
+  }

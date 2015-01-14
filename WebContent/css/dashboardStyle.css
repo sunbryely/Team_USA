@@ -1,0 +1,82 @@
+#mainPanel
+{
+	width: 100%;
+	margin-top: 5%;
+	/*height: 12	%;*/
+	background-color: #00B8E6;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+	text-align: center;	
+	font-family: futura;		
+}
+
+#mainPanel img 
+{
+	height: 80%;
+	width: 80%;
+	/*margin-left: 5%;*/
+	margin-right: 5%;	
+}
+
+.withdraw img 
+{
+	
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+	
+}
+
+.transfer  img 
+{
+
+	-ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+    transform: rotate(-90deg);
+}
+
+.transferUser  img 
+{
+
+	width: 105px;
+	height: 105px;
+}
+
+.deposit img 
+{
+}
+
+#displayBox
+{
+	font-family: futura;
+	/*margin-top: 5%;*/
+	background-color: #00B8E6;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+}
+
+#transferBox
+{
+	font-family: futura;
+	/*margin-top: 5%;*/
+	background-color: #00B8E6;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+}
+#transferBox input
+{
+	margin:3%;
+}
+
+body
+{
+	font-family: futura;
+}
+
+
+
+
+
